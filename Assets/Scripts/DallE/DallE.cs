@@ -34,7 +34,7 @@ namespace OpenAI
 
         private async void SendImageRequest()
         {
-            _sprite.sprite = null; //* подумать, куда закинуть отключение/включение  ВСЕХ кнопок 
+            _sprite.sprite = null;
             button.enabled = false;
             inputField.enabled = false;
             loadingLabel.SetActive(true); 
